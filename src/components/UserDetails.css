@@ -1,0 +1,78 @@
+.container {
+	margin-top: 25px;
+	background-color: var(--main-color);
+	border-radius: 15px;
+	width: 100%;
+	-webkit-box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+	-moz-box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+	box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+    padding: 50px 0;
+}
+
+.wrapper {
+	display: grid;
+    grid-template-columns: .2fr .8fr;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+	/* padding-top: 25px;  */
+}
+
+.profilePic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.details {
+	width: 100%;
+}
+
+.details>* {
+    margin: 5px 0;
+}
+
+.name {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	width: 100%;
+}
+
+.details > h3 {
+	color: var(--accent-color-dark);
+}
+
+.stats {
+	background-color: var(--background-color);
+	border-radius: 15px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+    margin: 15px auto;
+}
+
+.stats > * {
+	margin: 15px 30px;
+}
+
+.infos {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.info>* {
+    margin: 5px 0;
+}
+
+.disabled {
+    color: #696969;
+}
